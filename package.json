@@ -1,0 +1,116 @@
+{
+  "name": "node-simple-polyfills",
+  "description": "Simple node polyfills that exports undefined for the browser environment",
+  "author": {
+    "name": "Grigorii Lutkov",
+    "email": "friend.lga@gmail.com"
+  },
+  "version": "0.0.1",
+  "homepage": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills",
+  "repository": {
+    "type": "git",
+    "url": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills.git"
+  },
+  "bugs": {
+    "url": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills/-/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc --project tsconfig_build.json && tsc-alias -p tsconfig_build.json",
+    "lint": "eslint --cache --rule 'import/order: [warn, { newlines-between: never }]' --ext=js,mjs,cjs,ts,mts,cts,d.ts",
+    "lint_all": "yarn lint './**/*.{js,mjs,cjs,ts,mts,cts,d.ts}'",
+    "lint_fix": "yarn lint --fix",
+    "lint_fix_all": "yarn lint_all --fix",
+    "format": "prettier --ignore-unknown --check",
+    "format_all": "yarn format ./",
+    "format_fix": "yarn format --write",
+    "format_fix_all": "yarn format_all --write",
+    "lint_format_fix_all": "yarn lint_fix_all && yarn format_fix_all"
+  },
+  "files": [
+    "dist/",
+    "third_party_licenses/",
+    "CONTRIBUTORS.md",
+    "LICENSE.md",
+    "README.md",
+    "third_party_licenses.md"
+  ],
+  "exports": {
+    "./buffer": {
+      "node": "./dist/node/buffer_node.js",
+      "default": "./dist/default/buffer_default.js"
+    },
+    "./child_process": {
+      "node": "./dist/node/child_process_node.js",
+      "default": "./dist/default/child_process_default.js"
+    },
+    "./cluster": {
+      "node": "./dist/node/cluster_node.js",
+      "default": "./dist/default/cluster_default.js"
+    },
+    "./crypto": {
+      "node": "./dist/node/crypto_node.js",
+      "default": "./dist/default/crypto_default.js"
+    },
+    "./dns": {
+      "node": "./dist/node/dns_node.js",
+      "default": "./dist/default/dns_default.js"
+    },
+    "./event": {
+      "node": "./dist/node/event_node.js",
+      "default": "./dist/default/event_default.js"
+    },
+    "./fs": {
+      "node": "./dist/node/fs_node.js",
+      "default": "./dist/default/fs_default.js"
+    },
+    "./http": {
+      "node": "./dist/node/http_node.js",
+      "default": "./dist/default/http_default.js"
+    },
+    "./https": {
+      "node": "./dist/node/https_node.js",
+      "default": "./dist/default/https_default.js"
+    },
+    "./os": {
+      "node": "./dist/node/os_node.js",
+      "default": "./dist/default/os_default.js"
+    },
+    "./path": {
+      "node": "./dist/node/path_node.js",
+      "default": "./dist/default/path_default.js"
+    },
+    "./querystring": {
+      "node": "./dist/node/querystring_node.js",
+      "default": "./dist/default/querystring_default.js"
+    },
+    "./stream": {
+      "node": "./dist/node/stream_node.js",
+      "default": "./dist/default/stream_default.js"
+    },
+    "./url": {
+      "node": "./dist/node/url_node.js",
+      "default": "./dist/default/url_default.js"
+    },
+    "./util": {
+      "node": "./dist/node/util_node.js",
+      "default": "./dist/default/util_default.js"
+    }
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "4.4.1",
+    "@types/node": "22.18.0",
+    "@typescript-eslint/parser": "8.34.1",
+    "eslint": "9.29.0",
+    "eslint-import-resolver-typescript": "4.4.3",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-unused-imports": "4.1.4",
+    "globals": "16.2.0",
+    "prettier": "3.5.3",
+    "tsc-alias": "1.8.16",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.34.1"
+  },
+  "type": "module",
+  "packageManager": "yarn@4.12.0"
+}
