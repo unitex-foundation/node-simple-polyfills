@@ -1,6 +1,6 @@
-# Node Simple Polyfills
+# UNITEX Node Simple Polyfills
 
-Simple node polyfills that exports `undefined` for the browser environment
+Simple node polyfills that exports `undefined` in the browser environment
 
 # Usage
 
@@ -14,22 +14,37 @@ if (path === undefined) {
 }
 ```
 
-# Third-Party Licenses
+# Code of Conduct
 
-[Read Here](/third_party_licenses.md)
+[Read Here](./docs/CODE_OF_CONDUCT.md)
+
+# Contributing
+
+[Read Here](./CONTRIBUTING.md)
 
 # Contributors
 
-[Read Here](/CONTRIBUTORS.md)
+[Read Here](./CONTRIBUTORS.md)
 
-# Copyrights
+# Maintainers
 
-- Copyright (c) 2026 Grigorii Lutkov \<friend.lga@gmail.com\>
-- Copyright (c) [Node Simple Polyfills Contributors](/CONTRIBUTORS.md)
+[Read Here](./MAINTAINERS.md)
+
+# Copyright
+
+[Read Here](./COPYRIGHT.md)
+
+# Third-Party Licenses
+
+[Read Here](./third_party_licenses.md)
 
 # License
 
-Licensed under the [MIT License](/LICENSE.md)
+[Read Here](./LICENSE.md)
+
+# Copying
+
+[Read Here](./COPYING.md)
 
 <!----------------------------------------------------------------------------->
 

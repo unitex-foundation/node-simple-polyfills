@@ -1,36 +1,33 @@
 {
-  "name": "node-simple-polyfills",
-  "description": "Simple node polyfills that exports undefined for the browser environment",
+  "name": "@unitex/node-simple-polyfills",
+  "description": "Simple node polyfills that exports undefined in the browser environment",
   "author": {
     "name": "Grigorii Lutkov",
     "email": "friend.lga@gmail.com"
   },
   "version": "0.0.1",
-  "homepage": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills",
+  "homepage": "https://trulab.ru/unitex/node-simple-polyfills",
   "repository": {
     "type": "git",
-    "url": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills.git"
+    "url": "https://trulab.ru/unitex/node-simple-polyfills.git"
   },
   "bugs": {
-    "url": "https://trulab.ru/grigorii-lutkov/node-simple-polyfills/-/issues"
+    "url": "https://trulab.ru/unitex/node-simple-polyfills/-/issues"
   },
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist/ && tsc --project tsconfig_build.json && tsc-alias -p tsconfig_build.json",
-    "lint": "eslint --cache --rule 'import/order: [warn, { newlines-between: never }]' --ext=js,mjs,cjs,ts,mts,cts,d.ts",
-    "lint_all": "yarn lint './**/*.{js,mjs,cjs,ts,mts,cts,d.ts}'",
-    "lint_fix": "yarn lint --fix",
-    "lint_fix_all": "yarn lint_all --fix",
+    "build": "rm -rf dist/ && tsc --project tsconfig_build.json",
     "format": "prettier --ignore-unknown --check",
     "format_all": "yarn format ./",
     "format_fix": "yarn format --write",
-    "format_fix_all": "yarn format_all --write",
-    "lint_format_fix_all": "yarn lint_fix_all && yarn format_fix_all"
+    "format_fix_all": "yarn format_all --write"
   },
   "files": [
     "dist/",
     "third_party_licenses/",
     "CONTRIBUTORS.md",
+    "COPYING.md",
+    "COPYRIGHT.md",
     "LICENSE.md",
     "README.md",
     "third_party_licenses.md"
@@ -98,18 +95,9 @@
     }
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "4.4.1",
-    "@types/node": "22.18.0",
-    "@typescript-eslint/parser": "8.34.1",
-    "eslint": "9.29.0",
-    "eslint-import-resolver-typescript": "4.4.3",
-    "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-unused-imports": "4.1.4",
-    "globals": "16.2.0",
+    "@types/node": "*",
     "prettier": "3.5.3",
-    "tsc-alias": "1.8.16",
-    "typescript": "5.8.3",
-    "typescript-eslint": "8.34.1"
+    "typescript": "*"
   },
   "type": "module",
   "packageManager": "yarn@4.12.0"
