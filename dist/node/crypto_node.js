@@ -1,5 +1,6 @@
+// SPDX-License-Identifier: MIT
 // Copyright (c) 2026 Grigorii Lutkov <friend.lga@gmail.com>
 // Copyright (c) Node Simple Polyfills Contributors
-// Licensed under the MIT License
+// See README.md, COPYING.md, CONTRIBUTING.md and CONTRIBUTORS.md for details
 import crypto from 'crypto';
 export default crypto;

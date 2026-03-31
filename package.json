@@ -34,64 +34,64 @@
   ],
   "exports": {
     "./buffer": {
-      "node": "./dist/node/buffer_node.js",
-      "default": "./dist/default/buffer_default.js"
+      "node": "dist/node/buffer_node.js",
+      "default": "dist/default/buffer_default.js"
     },
     "./child_process": {
-      "node": "./dist/node/child_process_node.js",
-      "default": "./dist/default/child_process_default.js"
+      "node": "dist/node/child_process_node.js",
+      "default": "dist/default/child_process_default.js"
     },
     "./cluster": {
-      "node": "./dist/node/cluster_node.js",
-      "default": "./dist/default/cluster_default.js"
+      "node": "dist/node/cluster_node.js",
+      "default": "dist/default/cluster_default.js"
     },
     "./crypto": {
-      "node": "./dist/node/crypto_node.js",
-      "default": "./dist/default/crypto_default.js"
+      "node": "dist/node/crypto_node.js",
+      "default": "dist/default/crypto_default.js"
     },
     "./dns": {
-      "node": "./dist/node/dns_node.js",
-      "default": "./dist/default/dns_default.js"
+      "node": "dist/node/dns_node.js",
+      "default": "dist/default/dns_default.js"
     },
     "./event": {
-      "node": "./dist/node/event_node.js",
-      "default": "./dist/default/event_default.js"
+      "node": "dist/node/event_node.js",
+      "default": "dist/default/event_default.js"
     },
     "./fs": {
-      "node": "./dist/node/fs_node.js",
-      "default": "./dist/default/fs_default.js"
+      "node": "dist/node/fs_node.js",
+      "default": "dist/default/fs_default.js"
     },
     "./http": {
-      "node": "./dist/node/http_node.js",
-      "default": "./dist/default/http_default.js"
+      "node": "dist/node/http_node.js",
+      "default": "dist/default/http_default.js"
     },
     "./https": {
-      "node": "./dist/node/https_node.js",
-      "default": "./dist/default/https_default.js"
+      "node": "dist/node/https_node.js",
+      "default": "dist/default/https_default.js"
     },
     "./os": {
-      "node": "./dist/node/os_node.js",
-      "default": "./dist/default/os_default.js"
+      "node": "dist/node/os_node.js",
+      "default": "dist/default/os_default.js"
     },
     "./path": {
-      "node": "./dist/node/path_node.js",
-      "default": "./dist/default/path_default.js"
+      "node": "dist/node/path_node.js",
+      "default": "dist/default/path_default.js"
     },
     "./querystring": {
-      "node": "./dist/node/querystring_node.js",
-      "default": "./dist/default/querystring_default.js"
+      "node": "dist/node/querystring_node.js",
+      "default": "dist/default/querystring_default.js"
     },
     "./stream": {
-      "node": "./dist/node/stream_node.js",
-      "default": "./dist/default/stream_default.js"
+      "node": "dist/node/stream_node.js",
+      "default": "dist/default/stream_default.js"
     },
     "./url": {
-      "node": "./dist/node/url_node.js",
-      "default": "./dist/default/url_default.js"
+      "node": "dist/node/url_node.js",
+      "default": "dist/default/url_default.js"
     },
     "./util": {
-      "node": "./dist/node/util_node.js",
-      "default": "./dist/default/util_default.js"
+      "node": "dist/node/util_node.js",
+      "default": "dist/default/util_default.js"
     }
   },
   "devDependencies": {
