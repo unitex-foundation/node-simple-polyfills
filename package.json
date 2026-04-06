@@ -22,16 +22,6 @@
     "format_fix": "yarn format --write",
     "format_fix_all": "yarn format_all --write"
   },
-  "files": [
-    "dist/",
-    "third_party_licenses/",
-    "CONTRIBUTORS.md",
-    "COPYING.md",
-    "COPYRIGHT.md",
-    "LICENSE.md",
-    "README.md",
-    "third_party_licenses.md"
-  ],
   "exports": {
     "./buffer": {
       "node": "./dist/node/buffer_node.js",
@@ -94,6 +84,16 @@
       "default": "./dist/default/util_default.js"
     }
   },
+  "files": [
+    "dist/",
+    "third_party_licenses/",
+    "CONTRIBUTORS.md",
+    "COPYING.md",
+    "COPYRIGHT.md",
+    "LICENSE.md",
+    "README.md",
+    "third_party_licenses.md"
+  ],
   "devDependencies": {
     "@types/node": "*",
     "prettier": "3.5.3",
