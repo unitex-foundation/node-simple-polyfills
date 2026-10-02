@@ -1,21 +1,24 @@
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 Grigorii Lutkov <friend.lga@gmail.com>
+# Copyright (c) 2026 Grigorii Lutkov <grigorii@lutkov.dev>
 # Copyright (c) Node Simple Polyfills Contributors
 # See README.md, COPYING.md, CONTRIBUTING.md and CONTRIBUTORS.md for details
-
-# Common
-.DS_Store
-.thumbs.db
 
 # Git
 /.git
 
 # Node
 /node_modules
+/package-lock.json
+
+# Bun
+/bun.lock
 
 # Yarn
 /.yarn
 /yarn.lock
+
+# PNPM
+/pnpm-lock.yaml
 
 # Build
 /dist
@@ -40,3 +43,11 @@ yarn-error.log*
 
 # Licenses
 /third_party_licenses
+
+# Common OS files
+.DS_Store
+._*
+.Trashes
+.Spotlight-V100
+Thumbs.db
+*.tmp

@@ -4,7 +4,6 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "alwaysStrict": true,
-    "baseUrl": "./src",
     "composite": false,
     "declaration": true,
     "declarationMap": false,
@@ -22,7 +21,7 @@
     "outDir": "./dist",
     "removeComments": false,
     "resolveJsonModule": true,
-    "rootDir": "./",
+    "rootDir": "./src",
     "skipLibCheck": true,
     "sourceMap": false,
     "strict": true,
@@ -31,14 +30,5 @@
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
   },
-  "include": ["**/*.ts", "**/*.js"],
-  "exclude": [
-    ".git",
-    ".vscode",
-    ".yarn",
-    "dist",
-    "node_modules",
-    "temp",
-    "third_party_licenses"
-  ]
+  "include": ["./src/**/*.ts"]
 }
