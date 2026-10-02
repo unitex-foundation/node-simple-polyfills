@@ -46,6 +46,13 @@ if (path === undefined) {
 
 [Read Here](./COPYING.md)
 
+## Repos / Mirrors
+
+- [TRULAB](https://trulab.ru/unitex/node-simple-polyfills)
+- [GitHub](https://github.com/unitex-foundation/node-simple-polyfills)
+- [GitLab](https://gitlab.com/unitex-foundation/node-simple-polyfills)
+- [Gitea](https://gitea.com/unitex/node-simple-polyfills)
+
 <!----------------------------------------------------------------------------->
 
 <!-- <style>
