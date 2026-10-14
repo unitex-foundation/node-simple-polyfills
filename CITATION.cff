@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+type: software
+title: UNITEX Node Simple Polyfills
+abstract: Simple node polyfills that exports undefined in the browser environment
+authors:
+  - given-names: Grigorii
+    family-names: Lutkov
+    email: grigorii@lutkov.dev
+version: 1.0.2
+date-released: 2026-10-14
+license: MIT
+keywords:
+  - unitex
+  - node
+  - polyfill
+  - frontend
+  - backend
+url: https://trulab.ru/unitex/node-simple-polyfills
+repository: https://trulab.ru/unitex/node-simple-polyfills
+repository-code: https://trulab.ru/unitex/node-simple-polyfills
+# repository-mirrors:
+#   - https://github.com/unitex-foundation/node-simple-polyfills
+#   - https://gitlab.com/unitex-foundation/node-simple-polyfills
+#   - https://gitea.com/unitex/node-simple-polyfills
